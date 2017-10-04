@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>bt4</title>
+	<style type="text/css">
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		.body{
+			margin: auto;
+			width: 90%;
+			height: 600px;
+			border: 2px solid red;
+		}
+		.box{
+			width: 200px;
+			height: 200px;
+			text-align: center;
+			line-height: 200px;
+			color: #fff;
+			text-transform: uppercase;
+			margin-top: 50px;
+			margin-left: 100px;
+			position: relative;
+		}
+		#box-a{
+			background: #123;
+			margin-left: 25%;
+			z-index: 1;
+		}
+		#box-b{
+			background: #444;
+			margin-top: -50px;
+ 			 margin-left: 35%;
+ 			 z-index: 0;
+		}
+		#box-c{
+			background: #666;
+			margin-top: -50px;
+			margin-left: 45%;
+		}
+		#box-d{
+			background: #987;
+			margin-top: -350px;
+			margin-left: 55%;
+
+		}
+	</style>
+</head>
+<body>
+	<div class="body">
+		<div class="box" id="box-a">box A</div>
+		<div class="box" id="box-b">box B</div>
+		<div class="box" id="box-c">box C</div>
+		<div class="box" id="box-d">box D</div>
+	</div>
+
+</body>
+</html>
